@@ -9,29 +9,29 @@ const Control = () => {
 
   return (
 <section >
-  <div className=" cursor-pointer font-bold bg-opacity-25 border-2 border-[#03346E] text-[#6EACDA]
-    mt-5 flex justify-center  mx-auto  sm:w-fit max-lg:w-fit px-1 text-sm rounded-lg items-center w-2xl  h-10 bg-[#03346E] gap-5">
+  <div className=" backdrop-blur-xs cursor-pointer font-bold bg-opacity-25 border-2 border-[#03346E] text-[#6EACDA]
+    mt-5 flex justify-center  mx-auto  sm:w-fit max-lg:w-fit px-1 text-sm rounded-lg items-center w-2xl  h-10 bg-[#03346E]/40 gap-5">
     <button
       onClick={() => setActive("chemistry")}
-      className={`primary-btn ${active === "chemistry" ? "text-[#17B794]" : ""}`}
+      className={`primary-btn ${active === "chemistry" ? " active-btn" : ""}`}
     >
       chemistry
     </button>
     <button
       onClick={() => setActive("math")}
-      className={`primary-btn ${active === "math" ? "text-[#17B794]" : ""}`}
+      className={`primary-btn ${active === "math" ? "active-btn" : ""}`}
     >
       calculus
     </button>
     <button
       onClick={() => setActive("mechanics")}
-      className={`primary-btn ${active === "mechanics" ? "text-[#17B794]" : ""}`}
+      className={`primary-btn ${active === "mechanics" ? "active-btn" : ""}`}
     >
       mechanics
     </button>
     <button
       onClick={() => setActive("Physics")}
-      className={`primary-btn ${active === "Physics" ? "text-[#17B794]" : ""}`}
+      className={`primary-btn ${active === "Physics" ? "active-btn" : ""}`}
     >
       Physics
     </button>

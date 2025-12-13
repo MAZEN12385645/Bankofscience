@@ -4,7 +4,7 @@ const Chemist = () => {
   const pdfs = Object.entries(pdfFiles);
 
   return (
-    <div className="container w-90 h-fit max-lg:w-60 pt-1 bg-opacity-10 text-white mt-5 rounded-lg">
+    <div className="container  w-90 transition duration-300 ease-in-out h-fit max-lg:w-60 pt-1 bg-opacity-10 text-white mt-5 rounded-lg">
       {pdfs.map(([path, file], i) => (
        <div
           key={i}
@@ -14,7 +14,7 @@ const Chemist = () => {
           key={i}
           href={file.default}
           target="_blank"
-          className="block  mt-2  no-underline text-white"
+          className="block  mt-2 max-lg:text-sm  no-underline text-white"
         >
           {path.split("/").pop()} {/* اسم الملف */}
         </a>

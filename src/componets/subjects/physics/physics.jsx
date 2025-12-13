@@ -8,13 +8,13 @@ const Physics = () => {
       {pdfs.map(([path, file], i) => (
        <div
           key={i}
-          className="border-2 bg-blue-300/10 border-blue-700 flex justify-center items-center mt-2 rounded-lg w-full "
+          className="border-2 bg-blue-300/10  border-blue-700 flex justify-center items-center mt-2 rounded-lg w-full "
        >
        <a
           key={i}
           href={file.default}
           target="_blank"
-          className="block  mt-2  no-underline text-white"
+          className="block  mt-2 max-lg:text-sm  no-underline text-white"
         >
           {path.split("/").pop()} {/* اسم الملف */}
         </a>

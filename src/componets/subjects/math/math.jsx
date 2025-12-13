@@ -14,7 +14,7 @@ const Math = () => {
           key={i}
           href={file.default}
           target="_blank"
-          className="block  mt-2  no-underline text-white"
+          className="block  mt-2 max-lg:text-sm  no-underline text-white"
         >
           {path.split("/").pop()} {/* اسم الملف */}
         </a>
