@@ -8,7 +8,7 @@ const Math = () => {
       {pdfs.map(([path, file], i) => (
        <div
           key={i}
-          className="border-2 bg-blue-300/10 border-blue-700 flex justify-center items-center mt-2 rounded-lg w-full "
+          className="border text-center bg-blue-300/10 border-blue-700 flex justify-center items-center mt-2 rounded-lg w-full "
        >
        <a
           key={i}
