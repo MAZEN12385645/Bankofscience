@@ -39,7 +39,7 @@
       @apply cursor-pointer block;
     }
     p {
-      @apply text-[#28518A] text-sm md:text-base lg:text-lg leading-normal;
+      @apply text-[#2567c4] text-sm md:text-base lg:text-lg leading-normal;
     }
     h1,
     h2,
