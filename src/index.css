@@ -24,7 +24,7 @@
       @apply scroll-smooth transition-transform duration-300 ease-in-out  ;
     }
     body {
-      @apply font-dmSans text-grey-15 min-h-screen  bg-gradient-to-br from-[#2422a2] via-[#054ba0] to-[#4b7392] ;
+      @apply font-dmSans text-grey-15 min-h-screen  bg-gradient-to-br from-[#3b3aa8] via-[#2e5d97] to-[#316892] ;
     }
     
     
